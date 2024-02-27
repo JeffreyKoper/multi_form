@@ -66,6 +66,7 @@ h6 {
 }
 
 .form__title {
+  margin-block-end: 1rem;
   font-size: 2rem;
 }
 
@@ -117,6 +118,8 @@ h6 {
   block-size: 3.125rem;
   inline-size: 23rem;
   border-radius: 0.5rem;
+  background-color: hsl(235deg 18% 26%);
+  color: hsl(0deg 0% 100%);
 }
 
 .icon {

@@ -9,6 +9,7 @@
     color: $clr-text;
 
     &__title{
+        margin-block-end: 1rem;
         font-size: 2rem;
     }
 
@@ -61,6 +62,8 @@
             block-size: 3.125rem;
             inline-size: 23rem;
             border-radius: 0.5rem;
+            background-color: $clr-bg;
+            color: $clr-neutral-100;
         }
     }
 }
