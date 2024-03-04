@@ -2,15 +2,14 @@
 
 .form{
     display: flex;
-    padding: 3rem;
-    padding-inline-end: 1rem;
+    padding: 1.5rem;
     border-radius: 1.5rem;
     background-color: $clr-neutral-100;
     color: $clr-text;
 
     &__title{
         margin-block-end: 1rem;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     &__description{
@@ -20,9 +19,9 @@
     }
 
     &__content{
-        inline-size: 70%;
-        padding-block-start: 2.5rem;
-        padding-inline: 2rem;
+        padding: 2.5rem;
+        padding-inline-end: 0;;
+     
     }
 
     &__statistics{
@@ -47,7 +46,7 @@
         gap: 1rem;
 
         label{
-            font-size: 1rem;
+            font-size: $font-size-md;
             font-weight: $fw-700;
         }
 
@@ -64,8 +63,24 @@
             border-radius: 0.5rem;
             background-color: $clr-bg;
             color: $clr-neutral-100;
+
+           
         }
+
+        button:hover{
+            border: none;
+            background: rgb(255 83 119);
+            background: linear-gradient(90deg, rgb(255 83 119 / 1) 0%, rgb(255 94 91 / 1) 50%, rgb(255 103 62 / 1) 100%);
+            cursor:pointer;
+        }
+
+        input:hover{
+            cursor: pointer;
+        }
+
+        
     }
+    
 
     
 }

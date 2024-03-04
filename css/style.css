@@ -58,8 +58,7 @@ h6 {
 
 .form {
   display: flex;
-  padding: 3rem;
-  padding-inline-end: 1rem;
+  padding: 1.5rem;
   border-radius: 1.5rem;
   background-color: hsl(0deg 0% 100%);
   color: hsl(234deg 29% 20%);
@@ -67,7 +66,7 @@ h6 {
 
 .form__title {
   margin-block-end: 1rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .form__description {
@@ -77,9 +76,8 @@ h6 {
 }
 
 .form__content {
-  inline-size: 70%;
-  padding-block-start: 2.5rem;
-  padding-inline: 2rem;
+  padding: 2.5rem;
+  padding-inline-end: 0;
 }
 
 .form__statistics ul {
@@ -103,7 +101,7 @@ h6 {
 }
 
 .form__input label {
-  font-size: 1rem;
+  font-size: 0.9375em;
   font-weight: 700;
 }
 
@@ -120,6 +118,17 @@ h6 {
   border-radius: 0.5rem;
   background-color: hsl(235deg 18% 26%);
   color: hsl(0deg 0% 100%);
+}
+
+.form__input button:hover {
+  border: none;
+  background: rgb(255 83 119);
+  background: linear-gradient(90deg, rgb(255 83 119) 0%, rgb(255 94 91) 50%, rgb(255 103 62) 100%);
+  cursor: pointer;
+}
+
+.form__input input:hover {
+  cursor: pointer;
 }
 
 #thanks {
