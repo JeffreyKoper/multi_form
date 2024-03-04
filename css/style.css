@@ -135,6 +135,43 @@ h6 {
   display: none;
 }
 
+#thanks .form {
+  padding: 1rem;
+}
+
+#thanks .form__content {
+  display: flex;
+  flex-direction: column;
+  inline-size: 23rem;
+  padding: 2rem;
+  padding-block-start: 0.5rem;
+}
+
+#thanks .form__content .form__title {
+  font-size: 3em;
+  line-height: 1;
+}
+
+#thanks .form__content .form__description {
+  max-inline-size: 100%;
+  margin-block-end: 2rem;
+  font-size: 0.8em;
+}
+
+#thanks .icon {
+  block-size: 3rem;
+  inline-size: 3rem;
+  margin-block-end: 1.5rem;
+}
+
+#thanks button {
+  block-size: 3.125rem;
+  inline-size: 19rem;
+  border-radius: 0.5rem;
+  background-color: hsl(235deg 18% 26%);
+  color: hsl(0deg 0% 100%);
+}
+
 .icon {
   display: inline;
   margin-inline-end: 1rem;

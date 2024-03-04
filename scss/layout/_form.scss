@@ -81,12 +81,48 @@
         
     }
     
-
     
 }
 
 #thanks{
+    .form{
+        padding: 1rem;
+    }
+
     display: none;
+    
+    .form__content{
+        display: flex;
+        flex-direction: column;
+        inline-size: 23rem;
+        padding: 2rem;
+        padding-block-start: 0.5rem;
+
+        .form__title{
+            font-size: $font-size-xl;
+            line-height: 1;
+        }
+
+        .form__description {
+            max-inline-size: 100%;
+            margin-block-end: 2rem;
+            font-size: $font-size-sm;
+        }
+    }
+
+    .icon{
+        block-size: 3rem;
+        inline-size: 3rem;
+        margin-block-end: 1.5rem;
+    }
+
+    button{
+        block-size: 3.125rem;
+        inline-size: 19rem;
+        border-radius: 0.5rem;
+        background-color: $clr-bg;
+        color: $clr-neutral-100;
+    }
 }
 
 
@@ -95,3 +131,4 @@
     display: inline;
     margin-inline-end: 1rem;
 }
+
