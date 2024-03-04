@@ -8,7 +8,7 @@ body {
   min-block-size: 100vh;
   padding: 1em 2em;
   background: hsl(235deg 18% 26%);
-  color: hsl(234deg 29% 20%);
+  color: hsl(0deg 0% 100%);
   font-family: Roboto, sans-serif;
   font-size: 0.9375em;
   place-content: center;
