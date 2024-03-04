@@ -122,6 +122,10 @@ h6 {
   color: hsl(0deg 0% 100%);
 }
 
+#thanks {
+  display: none;
+}
+
 .icon {
   display: inline;
   margin-inline-end: 1rem;
