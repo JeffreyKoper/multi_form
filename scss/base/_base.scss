@@ -10,4 +10,6 @@ body {
     font-family: $primary-font-family;
     font-size: $font-size-md;
     place-content: center;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
 }
