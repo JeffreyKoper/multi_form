@@ -190,10 +190,16 @@ button:hover{
         button, input{
             inline-size: 100%;
         }
+        
+        button{
+            margin-block-end: 1rem;
+        }
     }
 
     #thanks{
         .form__content{
+            margin-inline-end: 2rem;
+
             img {
                 margin-block-start: 5rem;
             }
